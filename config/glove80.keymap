@@ -72,9 +72,7 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 2>;
         };
-    };
 
-    macros {
         bt_3: bt_profile_macro_3 {
             label = "BT_3";
             compatible = "zmk,behavior-macro";
